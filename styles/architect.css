@@ -107,3 +107,22 @@ header {
 .banner-img img {
     width: 100%;
 }
+
+
+
+
+/* mobile device */
+@media screen and (max-width:576px) {
+
+    .navber,
+    .navber>ul {
+        flex-direction: column;
+    }
+    .navber>ul {
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .banner-content {
+        margin-top: 30px;
+    }
+}
