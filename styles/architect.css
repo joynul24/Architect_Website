@@ -46,6 +46,15 @@
     margin-top: 1.875rem;
 }
 
+.btn-primary:hover {
+    background-color: tomato;
+    transition: 0.5s;
+}
+
+.btn-hover::after {
+    background-color: tomato;
+}
+
 /* header styles */
 header {
     background-color: #FF900E1A;
