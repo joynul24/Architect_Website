@@ -265,6 +265,35 @@ main {
     color: #424242;
 }
 
+/* our sponsores styles */
+
+.our-sponsors {
+    margin-top: 150px;
+}
+
+.sponsor-content {
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponsor-title {
+    font-size: 2.813rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 150px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+}
+
+
+
+
 
 
 
@@ -341,5 +370,21 @@ main {
 
     .some-fact-card {
         margin-bottom: 50px;
+    }
+
+    /* sponsors styles */
+    .sponsor-content {
+        width: 100%;
+        padding: 20px;
+    }
+    .sponsor-companies {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+    .sponsor-companies img {
+        /* width: 100%; */
+        max-width: 500px;
+        margin: 0 auto;
+        margin-top: 20px;
     }
 }
