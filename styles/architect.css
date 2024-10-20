@@ -184,7 +184,7 @@ main {
 }
 
 .enjoy-card {
-    background-color:rgb(247, 247, 233);
+    background-color: rgb(247, 247, 233);
     margin-top: 25px;
     padding: 30px 42px 30px 30px;
     border-radius: 8px;
@@ -217,6 +217,52 @@ main {
 .badge-p {
     font-size: 1.563rem;
     font-weight: 500;
+}
+
+/* some fact styles */
+
+.some-fact {
+    margin-top: 100px;
+}
+
+.same-fact-content {
+    width: 542px;
+}
+
+.some-fact-title {
+    font-size: 2.813rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+/* some fact grid card */
+
+.some-fact-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 125px;
+    margin-top: 100px;
+}
+
+.some-fact-card {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px 35px 60px 35px;
+    text-align: center;
+}
+
+.some-card-nums {
+    font-size: 2.813rem;
+    font-weight: 600;
+    color: #424242;
+    margin: 10px 0px 5px 0px;
+}
+
+/* some fact grid card */
+.some-fact-card>p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #424242;
 }
 
 
@@ -262,10 +308,13 @@ main {
 
     .features-enjoy {
         padding: 10px;
+        gap: 0px;
+        flex-direction: column;
+        margin-top: 50px;
     }
 
-    .features-enjoy {
-        flex-direction: column;
+    .enjoy-image {
+        margin-top: 50px;
     }
 
     .enjoy-image img {
@@ -274,5 +323,23 @@ main {
 
     .badge-btn {
         display: none;
+    }
+
+    /* some fact grid  */
+
+    .same-fact-content {
+        width: 100%;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    .some-fact-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        padding: 0px 10px;
+    }
+
+    .some-fact-card {
+        margin-bottom: 50px;
     }
 }
